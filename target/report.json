@@ -1,0 +1,197 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-16T13:44:40.519Z",
+        "line": 4,
+        "name": "Api_valida_corpo_e_Marca",
+        "description": "",
+        "id": "validacao-de-retorno-solicitado-de-api;api-valida-corpo-e-marca",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 3335818200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário deseja fazer uma consulta completa do retorno da Api",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.TesteBodyChallengeMakeApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1170421400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enviar a requisição",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.TesteBodyChallengeMakeApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1318192900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validar se o código de resposta é 200",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.TesteBodyChallengeMakeApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "validar se existe a marca: \"Honda\" no retorno",
+            "match": {},
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-16T13:44:46.401Z",
+        "line": 10,
+        "name": "Api_valida_retorno_e_Modelo",
+        "description": "",
+        "id": "validacao-de-retorno-solicitado-de-api;api-valida-retorno-e-modelo",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1184060500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que o usuário deseja fazer uma consulta de retorno e modelo",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.ValidacaoRetornoModeloApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1233096400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "solicitar a requisição",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.ValidacaoRetornoModeloApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1105581500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validar se a resposta é 200",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.ValidacaoRetornoModeloApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "validar se existe o modelo: \"City\" no retorno",
+            "match": {},
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-16T13:44:49.945Z",
+        "line": 16,
+        "name": "Api_valida_retorno_e_Versao",
+        "description": "",
+        "id": "validacao-de-retorno-solicitado-de-api;api-valida-retorno-e-versao",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1229136700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que o usuário deseja fazer uma consulta de retorno e versao",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.ValidacaoRetornoVersaoApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1242384600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enviar uma requisição",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.ValidacaoRetornoVersaoApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1115775500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "validar se o código é 200",
+            "match": {
+              "location": "steps.api.TesteApiWebMotors.ValidacaoRetornoVersaoApiWebMotors() in file:/C:/Users/wlbraguini/Documents/Webmotors/webmotors/target/test-classes/"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "validar se existe o versão: \"1.5 DX 16V FLEX 4P AUTOMÁTICO\" no retorno",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "marca",
+                  "modelo",
+                  "versão"
+                ]
+              },
+              {
+                "cells": [
+                  "Honda",
+                  "City",
+                  "1.5 DX 16V FLEX 4P AUTOMÁTICO"
+                ]
+              }
+            ],
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Validacao de retorno solicitado de Api",
+    "description": "",
+    "id": "validacao-de-retorno-solicitado-de-api",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/api/PesquisaApi.feature",
+    "tags": []
+  }
+]
